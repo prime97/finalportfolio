@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
-import Card from './components/Card'
-import About from "./components/About";
-import Footer from "./components/Footer";
-import Skills from "./components/Skills";
-import Contact from "./components/Contact";
+import Card from './containers/Card'
+import About from "./containers/About";
+import Footer from "./containers/Footer";
+import Skills from "./containers/Skills";
+import Contact from "./containers/Contact";
 import Aos from "aos";
 import 'aos/dist/aos.css';
 
@@ -18,7 +18,7 @@ function App() {
   })
 
   return (
-    <div className='min-h-screen py-10 px-3 sm: px-5 bg-gray-100'>
+    <div className='min-h-screen py-10 px-3 sm:px-5 bg-gray-100'>
       <div data-aos='fade-down' data-aos-duration='800'>
       <Card />
       </div>
