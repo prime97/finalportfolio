@@ -6,6 +6,7 @@ import Skills from "./containers/Skills";
 import Contact from "./containers/Contact";
 import Aos from "aos";
 import 'aos/dist/aos.css';
+import Carousel from "./containers/Carousel";
 
 
 function App() {
@@ -28,7 +29,9 @@ function App() {
 
       
       <Skills />
+      <Carousel />
       <Contact />
+      
       <Footer />
       
     </div>
